@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-export default function MongolApiHome() {
+export default function Home() {
   const router = useRouter();
   const [data, setData] = useState([]);
   const [query, setQuery] = useState("");
